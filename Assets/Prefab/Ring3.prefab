@@ -538,6 +538,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9d24fd776e1a0468d77d20c4ef4025, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  childRing:
+  - {fileID: 214909545298459950}
+  - {fileID: 4290012532227109487}
+  - {fileID: 534341043932550545}
+  - {fileID: 3558371479951015858}
+  - {fileID: 4217780440844470383}
+  - {fileID: 9051701705475584807}
+  - {fileID: 6201428346855919349}
+  - {fileID: 8403512972455139861}
 --- !u!1 &4217780440844470383
 GameObject:
   m_ObjectHideFlags: 0

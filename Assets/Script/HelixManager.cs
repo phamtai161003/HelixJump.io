@@ -5,11 +5,12 @@ using UnityEngine;
 public class HelixManager : MonoBehaviour
 {
     public GameObject[] rings;
-    public int noOfRings = 10;
+    public int noOfRings;
     public float ringDistance = 5f;
     float yPos;
     private void Start()
     {
+        noOfRings = GameManager.CurrentLevelIndex + 5;
         for (int i = 0; i < noOfRings; i++)
         {
             if (i == 0)
